@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { db } from '../../firebase';
+import { db } from '../../firebase/firebase';
 import {collection, doc, getDocs, addDoc, deleteDoc, updateDoc} from 'firebase/firestore';
 import BookForm from '../BookForm/BookForm';
 import BookGroup from '../BooksGroup/BooksGroup';
