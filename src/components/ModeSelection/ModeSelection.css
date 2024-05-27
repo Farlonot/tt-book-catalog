@@ -1,0 +1,35 @@
+.ModeMenu{
+    background-color: white;
+    display: flex;
+    border: 3px solid black;
+    border-bottom: none;
+    border-radius: 3px;
+    padding: 0 10px;
+    align-items: center;
+    
+    h4{
+        flex:2;
+    }
+}
+
+
+
+button{
+    width: 80px;
+    margin: 5px 10px;
+    padding: 3px;
+    background-color: rgba(255,255,255,0.9);
+    border:solid 2px rgba(0,0,0,0.5);
+    border-radius:3px;
+    font-weight: 600;
+    color: black;
+    transition:background-color ease 0.3s, border ease 0.5s, color ease 0.2s;
+    &:hover {
+        background-color: rgba(0,0,0,0.15);
+    }
+    &:disabled{
+        color: rgba(0,0,0,0.4);
+        background-color: rgba(0,0,0,0.1);
+    }
+
+}

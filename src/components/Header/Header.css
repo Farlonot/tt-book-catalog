@@ -1,0 +1,41 @@
+.Header{
+    position:sticky;
+    top:0px;
+    z-index:10;
+    display: grid;
+    grid-template-columns:  8fr 2fr 1fr;
+    grid-gap:20px;
+    align-items: center;
+    justify-items: center;
+    text-align:center;
+    width: 100%;
+    padding:5px 0 5px 0;
+    background: linear-gradient(to right, #5c6bc0, #512da8);
+    color: #fff;
+    font-family: "Open Sans";
+    & .logo{
+        height:50px;
+        padding:0 5px;
+        justify-self: start;
+        font-family: "Open Sans";
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        & > img {
+            height: 100%;
+            width: auto;
+        }
+    }
+    
+    & .company{
+        justify-self: end;
+    }
+    
+    & .btn{
+        margin-left:20px;
+        justify-self:start;
+        font-family: 'Merriweather';
+    }
+}
+
